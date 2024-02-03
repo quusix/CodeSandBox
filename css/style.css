@@ -95,6 +95,13 @@ h6 {
     scroll-behavior: auto !important;
   }
 }
+.main__title-block .main_title__title {
+  font-size: 64px;
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
 .open {
   display: flex !important;
 }
@@ -360,4 +367,26 @@ header .navigate_create-sandbox {
 }
 .main__title-page_menu-scroll .image_in_title {
   padding-top: 130px;
+}
+
+.main__title-block {
+  text-align: center;
+}
+.main__title-block .main_title__title {
+  font-size: 104px;
+}
+.main__title-block .main_title_paragrapg {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 1.9px;
+  text-align: center;
+}
+.main__title-block .main__title-block_paragraph {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 28px;
+  color: #999999;
 }/*# sourceMappingURL=style.css.map */
