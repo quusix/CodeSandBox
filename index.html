@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CodeSandBox</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="icon" href="./src/img/logo.svg" type="image/x-icon" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body>
+		<header>
+			<div class="conteiner_header">
+				<div class="logo">
+					<a href=""><img src="./src/img/logo.svg" alt="logo" /></a>
+				</div>
+				<nav class="navigate">
+					<ul class="navigate_menu">
+						<li class="navigate_li"><a href="#home">Product</a></li>
+						<li class="navigate_li"><a href="#about">Explore</a></li>
+						<li class="navigate_li"><a href="#services">Resources</a></li>
+						<li class="navigate_li"><a href="#portfolio">Support</a></li>
+						<li class="navigate_li"><a href="#contact">Pricing</a></li>
+						<li class="navigate_li">
+							<div class="navigate_notification" ><span id='navigate_notification_text' >1</spanш></div>
+							<a href="#Jobs" onclick='increment()'>Jobs</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="navigate_sign-in">
+					<a class="Sign_in" href="">Sign In</a>
+					<a class="navigate_create-sandbox" href="#create-sandbox"
+						>Create Sandbox</a
+					>
+				</div>
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
+		</header>
+		<div class="main__title-page">
+			<a class='title_image' href='#image'><img src="./src/img/title_image.svg" alt=""></a>
+			<div class="main__title-title">
+				<h1 class='shab_title_inter shab_title_inter_padding'>CodeSandbox</h1>
+				<h2 class='shab_title_Roboto'>Where teams build <br>
+					faster, together. 
+				</h2>
+				<p class='shab_title_paragraph shab_title_paragraph_padding'>Create, share, and get feedback with collaborative <br> sandboxes for rapid web development. </p>
+				<div class="main__title-button">
+					<img src="./src/img/code_logo.svg" alt=""><a href=''>Start coding for free</a>
+				</div>
+			</div>
+			<div class="main__title-page_menu-scroll">
+				<div class="main__title-page-menu">
+					<ul class="main_title-page_list">
+						<li class="main__title-page-li" onclick='changequete(1)'><a href="#asdsad">No setup</a></li>
+						<li class="main__title-page-li" onclick='changequete(2)'><a href="#asdsad">Superfast</a></li>
+						<li class="main__title-page-li" onclick='changequete(3)'><a href="#asdas">Multiplayer</a></li>
+						<li class="main__title-page-li" onclick='changequete(4)'><a href="#sad">Updates live</a></li>
+						<li class="main__title-page-li"onclick='changequete(5)'><a href="#index">Shared</a></li>
+					</ul>
+				</div>
+				<div class="main__title-page-paragraph">
+					<p id='quete_text'>A sandbox needs no setup - use a template to kickstart new projects, <br> or start from a GitHub repo and begin coding in seconds.</p>
+				</div>
+				<img class='image_in_title' data-aos="zoom-in-down" src="./src/img/title_image_in_menu.svg" alt="">
+			</div>
+		</div>
+		
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
