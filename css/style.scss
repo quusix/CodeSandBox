@@ -189,6 +189,10 @@ header {
 		border-radius: 4px;
 	}
 }
+.background-image {
+	width: 100%;
+	height: auto;
+}
 
 .main__title-page {
 	max-width: 1100px;
@@ -439,6 +443,15 @@ header {
 	}
 }
 .main_title-feedback {
+	.text_title {
+		font-family: Roboto;
+		font-weight: 400;
+		font-size: 48px;
+		line-height: 48px;
+		letter-spacing: 1.2px;
+		text-align: center;
+		margin-top: 500px;
+	}
 	.main_title-block-about {
 		display: flex;
 		text-align: center;
@@ -469,5 +482,36 @@ header {
 				color: #999999;
 			}
 		}
+	}
+}
+.main_title_pre_footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	h2 {
+		font-family: Roboto;
+		font-size: 47px;
+		font-weight: 400;
+		line-height: 48px;
+		letter-spacing: 1.2px;
+	}
+	p {
+		font-family: Inter;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 29px;
+		letter-spacing: 0em;
+		color: #999999;
+	}
+	.main_title_pre_button {
+		width: 177px;
+		height: 40px;
+		background-color: #eaff96;
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
