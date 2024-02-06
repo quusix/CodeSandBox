@@ -273,13 +273,15 @@ header {
 	}
 	.main__title-page-paragraph {
 		padding-top: 46px;
-	}
-	.image_in_title {
-		padding-top: 130px;
+		padding-bottom: 131px;
 	}
 }
 .main__title-block {
+	padding-top: 33px;
 	text-align: center;
+	.main__title-block-image {
+		padding-top: 406px;
+	}
 	.main_title__title {
 		@extend %shab_title_Roboto;
 		font-size: 104px;
@@ -291,6 +293,7 @@ header {
 		line-height: 38px;
 		letter-spacing: 1.9px;
 		text-align: center;
+		padding-top: 33px;
 	}
 	.main__title-block_paragraph {
 		font-size: 16px;
@@ -298,5 +301,92 @@ header {
 		font-weight: 400;
 		line-height: 28px;
 		color: #999999;
+		padding-top: 39px;
+	}
+
+	.main__title-block__learn_more {
+		margin-top: 26px;
+		a {
+			font-family: Inter;
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 28px;
+			color: #e3ff73;
+		}
+		.link-icon-padding {
+			padding-top: 6px;
+		}
+	}
+}
+.main_title-lorem {
+	.main_title-lorem-image-block {
+		.lorem_image {
+			position: relative;
+		}
+
+		.avatar_num1 {
+			position: absolute;
+			right: 150px;
+			bottom: 40px;
+		}
+		.avatar_num2 {
+			position: absolute;
+			bottom: 34px;
+		}
+
+		.avatar_num4 {
+			position: absolute;
+			left: 150px;
+			bottom: 40px;
+		}
+		.avatar_num5 {
+			position: absolute;
+			left: 0px;
+			bottom: 34px;
+		}
+	}
+	.main_title-lorem-image-title {
+		display: flex;
+		justify-content: space-between;
+		.main_title_lorem-image-text {
+			h2 {
+				font-family: Roboto;
+				font-weight: 400;
+				font-size: 48px;
+				line-height: 48px;
+				letter-spacing: 1.2px;
+				text-align: center;
+			}
+			p {
+				font-family: Inter;
+				font-weight: 400;
+				font-size: 17px;
+				line-height: 28.8px;
+				text-align: center;
+				color: #999999;
+			}
+		}
+	}
+}
+.main_title_card-menu {
+	display: flex;
+	text-align: center;
+	.main_title_card-cart {
+		background: #151515;
+		padding: 60px;
+		margin-right: 40px;
+		h2 {
+			font-family: Roboto;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 28.8px;
+		}
+		p {
+			font-family: Inter;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 25.6px;
+			color: #999999;
+		}
 	}
 }
