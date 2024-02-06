@@ -490,6 +490,7 @@ header {
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
+	padding-top: 343px;
 	h2 {
 		font-family: Roboto;
 		font-size: 47px;
@@ -504,6 +505,7 @@ header {
 		line-height: 29px;
 		letter-spacing: 0em;
 		color: #999999;
+		padding: 28px 0px 28px 0px;
 	}
 	.main_title_pre_button {
 		width: 177px;
@@ -513,5 +515,53 @@ header {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+}
+.main_title_footer-image {
+	max-width: 1920px;
+	min-height: 350px;
+	position: relative;
+	padding-top: 200vh;
+	img {
+		position: absolute;
+	}
+	.main_title_footer-image-1 {
+		bottom: -20px;
+	}
+	.main_title_footer-image-2 {
+		bottom: 0;
+		left: 50vh;
+	}
+	.main_title_footer-image-3 {
+		bottom: -20px;
+		left: 80vh;
+	}
+	.main_title_footer-image-4 {
+		bottom: -30px;
+		right: 0;
+	}
+}
+
+footer {
+	width: 1890px;
+	max-height: 600px;
+	border-top: 1px solid #343434;
+	margin-top: 600px;
+	display: flex;
+	justify-content: space-around;
+	.footer_navigate {
+		h2 {
+			font-size: 19px;
+			padding: 100px 0px 15px 0px;
+		}
+		ul {
+			li {
+				padding-top: 8px;
+				a {
+					color: #999;
+					font-size: 15px;
+				}
+			}
+		}
 	}
 }
