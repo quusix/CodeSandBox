@@ -408,6 +408,13 @@ header .navigate_create-sandbox {
   padding-top: 6px;
 }
 
+.background-image {
+  padding-top: 500vh;
+}
+
+.main_title-lorem {
+  padding-top: 157px;
+}
 .main_title-lorem .main_title-lorem-image-block .lorem_image {
   position: relative;
 }
@@ -454,6 +461,7 @@ header .navigate_create-sandbox {
 .main_title_card-menu {
   display: flex;
   text-align: center;
+  padding-top: 80px;
 }
 .main_title_card-menu .main_title_card-cart {
   background: #151515;
@@ -471,5 +479,80 @@ header .navigate_create-sandbox {
   font-weight: 400;
   font-size: 15px;
   line-height: 25.6px;
+  color: #999999;
+}
+
+.main_title-java-s {
+  text-align: center;
+  position: relative;
+  padding-top: 224px;
+}
+.main_title-java-s h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 1.2px;
+}
+.main_title-java-s .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.main_title-java-s .main_title-java-cart {
+  display: flex;
+  text-align: center;
+}
+.main_title-java-s .main_title-java-cart .main_title_card-cart {
+  background: #151515;
+  padding: 60px;
+  margin-right: 40px;
+  margin-top: 85px;
+}
+.main_title-java-s .main_title-java-cart .main_title_card-cart h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.main_title-java-s .main_title-java-cart .main_title_card-cart p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25.6px;
+  color: #999999;
+}
+
+.main_title-feedback .main_title-block-about {
+  display: flex;
+  text-align: center;
+}
+.main_title-feedback .main_title-block-about .main_title-block-about-card {
+  background: #151515;
+  padding: 60px;
+  margin-right: 40px;
+  margin-top: 85px;
+}
+.main_title-feedback .main_title-block-about .main_title-block-about-card .avatar_image_in_cart {
+  padding: 35px 0px 35px 0px;
+}
+.main_title-feedback .main_title-block-about .main_title-block-about-card .avatar_image_in_cart-cteck {
+  position: absolute;
+  padding-top: 25px;
+}
+.main_title-feedback .main_title-block-about .main_title-block-about-card h2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28.8px;
+}
+.main_title-feedback .main_title-block-about .main_title-block-about-card p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20.8px;
   color: #999999;
 }/*# sourceMappingURL=style.css.map */
